@@ -1,0 +1,25 @@
+.imgContainer{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    padding: 10px 30px;
+}
+
+.imgContainer img{
+    max-width: 90px;
+    max-height: 90px;
+}
+
+.orderItemContainer{
+    padding: 10px 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.pricee{
+    display: flex;
+    margin: 10px;
+    
+}

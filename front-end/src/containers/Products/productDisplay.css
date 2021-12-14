@@ -1,0 +1,14 @@
+
+.imgContainer {
+    width: 1000px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.imgContainer img{
+    max-width: 100%;
+    max-height: 100%;
+}

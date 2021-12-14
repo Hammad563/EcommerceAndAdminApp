@@ -1,0 +1,33 @@
+.flexRow{
+    display: flex;
+}
+
+.cartContainer{
+    display: flex;
+    max-width: 1260px;
+    margin: 15px auto;
+    justify-content: space-between;
+}
+
+
+.cartItemDetails{
+    display: flex;
+    padding: 15px;
+    
+}
+
+.placeOrderContainer{
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    justify-content: flex-end;
+    box-shadow: 0 0 10px 10px #eee;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.placeOrderButton{
+    display: flex;
+    width: 150px;
+}

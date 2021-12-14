@@ -1,0 +1,127 @@
+
+.flexRow{
+    display: flex;
+}
+
+.productDescriptionContainer{
+    display: flex;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.Buttons{
+    display: inline-block;
+    padding: 10px 135px;
+    width: 300px;
+    padding-bottom: 100px;
+    
+}
+
+.verticalImageStack{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail{
+    width: 63px;
+    height: 63px;
+    border: 1px solid #f0f0f0;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.thumbnail img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.thumbnail.active{
+    border: 2px solid #2874f0;
+}
+
+.productDescContainer{
+    display: flex;
+    width: 485px;
+}
+
+.productDescImgContainer{
+    width: 485px;
+    height: 440px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+}
+
+.productDescImgContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.breed ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.breed ul li {
+    list-style: none;
+    margin-right: 5px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+.breed ul li a {
+    text-decoration: none;
+    color: #777;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.productDetails{
+    margin: 0 10px;
+}
+
+.productDetails .productTitle{
+    font-size: 18px;
+    color: #212121;
+    font-weight: 400;
+}
+
+.ratingCount{
+    display: inline-block;
+    background: #214d23;
+    color: #f0f0f0;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.ratingNumbers{
+    font-size: 12px;
+    color: #777;
+    font-weight: 600;
+    margin: 10px;
+    display: inline-block;
+}
+
+.extraOffer, .discount{
+    color: #388e3c;
+    font-size: 12px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.priceContainer{
+    align-items: center;
+}
+.price{
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,72 @@
+/* Categories Nav bar */
+.menuHeader{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 1px solid #cecece;
+    box-shadow: 0 2px 2px -2px #333;
+}
+
+/* Parent Categories */
+.menuHeader ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Parent Categories */
+.menuHeader > ul {
+    display: flex;
+    margin: 0 50px;
+    position: relative;
+}
+
+/* Parent Categories   */
+.menuHeader > ul > li > span {
+    display: block;
+    line-height: 50px;
+    cursor: pointer;
+    padding: 0 20px;
+    font: 14px;
+}
+
+/* Parent Categories hover affect */
+.menuHeader > ul > li > span:hover {
+   color: cornflowerblue;
+}
+
+
+
+/* child categories background and display */
+.menuHeader > ul > li > ul {
+    position: absolute;
+    background: transparent;
+    display: none;
+    border: 1px solid #cecece;
+    z-index: 1;
+}
+
+/* child categories display only when hover */
+.menuHeader > ul > li:hover ul {
+   display: block;
+ }
+
+ /* child categories formating */
+ .menuHeader > ul > li > ul > li {
+    margin: 0 20px;
+    min-width: 150px;
+}
+
+/* child categories formating (bold, size, look) */
+.menuHeader > ul > li > ul > li > a {
+    font-weight: bold;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.menuHeader > ul > li > ul > li a {
+    padding: 3px 0;
+    display: block; 
+}
